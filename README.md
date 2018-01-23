@@ -7,6 +7,6 @@ POC graphql w/ dotnet core 2
 
 check http://localhost:3000/
 
-Sample Query using Postmen:
+Sample Query using Postman:
 
 ![Screenshot](graph.PNG)
