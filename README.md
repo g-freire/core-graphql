@@ -1,22 +1,12 @@
 # stone-graphql
-sandboxing graphql w/ dotnet core 2 and docker
+POC graphql w/ dotnet core 2 
+
+$ dotnet restore
+$ dotnet build
+$ dotnet run
+
+check http://localhost:3000/
 
 Sample Query using Postmen:
 
-{
- "query":
-  "query{
-     category(id:1){
-       id
-       name
-       products{
-       	id
-       	name
-       	cardbrand
-       	merchantReference
-       	mCC
-
-       }
-     }
-   }"
-}
+![Screenshot](graph.png)
