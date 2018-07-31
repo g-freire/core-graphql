@@ -1,9 +1,8 @@
 [ ![Build Status](https://travis-ci.org/PierreZ/goStatic.svg?branch=master)](https://travis-ci.org) 
-
-#### API modeling using .NET core 2 + GraphL 
-#### The server response returns only the graph data of each endpoint transactions
-#### 
-#### To compile it locally w/ dotnet core CLI
+### API model implementation using .NET core 2 + GraphL 
+### The server response returns only the graph data of each endpoint 
+###
+#### Using dotnet core CLI:
 ```diff
 + $ dotnet restore
 + $ dotnet build
@@ -15,6 +14,6 @@
 #
 ![Screenshot](graph.PNG)
 
-
+to learn about GraphQL: https://graphql.org/
 
 
