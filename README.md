@@ -16,8 +16,12 @@
 #
 ![Screenshot](graph.PNG)
 #
-#### The GraphQL aproach offer the best of both SOAP and REST plus some awesome features:
-#### is strongly typed, uses standard protocols (HTTP), efficient/modern data payloads, less network roundtrip by multiplexing the endpoint, etc..
+#### The GraphQL architecture design :
+- offers the best of both SOAP and REST
+- is strongly typed
+- uses standard protocols (HTTP)
+- generates efficient/modern data payloads
+- requires fewer network roundtrips by multiplexing the endpoints
 #
 #### to learn more about GraphQL: https://graphql.org/
 
