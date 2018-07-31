@@ -1,6 +1,6 @@
 [ ![Build Status](https://travis-ci.org/PierreZ/goStatic.svg?branch=master)](https://travis-ci.org) 
 ### Financial API modeling using .NET core 2 + GraphQL 
-### The server response returns the graph related to each data query
+### The server response returns the graph nodes requested by each query
 #
 ```diff
 + $ dotnet restore
@@ -12,7 +12,7 @@
 #
 ![Screenshot](graph.PNG)
 #
-####  #The GraphQL aproach offer the best of both SOAP and REST and more:
+#### The GraphQL aproach offer the best of both SOAP and REST and more:
 #### is strongly typed, uses standard protocols (HTTP), efficient/modern data payloads, less network roundtrip by multiplexing the endpoint, etc..
 #
 #### to learn about GraphQL: https://graphql.org/
