@@ -1,8 +1,8 @@
 [ ![Build Status](https://travis-ci.org/PierreZ/goStatic.svg?branch=master)](https://travis-ci.org) 
-### Finance API modeling using .NET core 2 + GraphQL 
-### The server response returns only the graph data of each endpoint 
-###
-#### Using dotnet core CLI:
+### Financial API modeling using .NET core 2 + GraphQL 
+### The server response returns the graph related to each data query
+### The GraphQL aproach offer the best of both SOAP & REST and more: is strongly typed, uses standard protocols (HTTP), efficient/modern data payloads, less network roundtrip by multiplexing the endpoint, etc..
+
 ```diff
 + $ dotnet restore
 + $ dotnet build
