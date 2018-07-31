@@ -1,5 +1,5 @@
 [ ![Build Status](https://travis-ci.org/PierreZ/goStatic.svg?branch=master)](https://travis-ci.org) 
-### API model implementation using .NET core 2 + GraphL 
+### Finance API modeling using .NET core 2 + GraphQL 
 ### The server response returns only the graph data of each endpoint 
 ###
 #### Using dotnet core CLI:
@@ -15,5 +15,6 @@
 ![Screenshot](graph.PNG)
 
 to learn about GraphQL: https://graphql.org/
+
 
 
