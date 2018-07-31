@@ -12,10 +12,10 @@
 #
 ![Screenshot](graph.PNG)
 #
-#### The GraphQL aproach offer the best of both SOAP and REST and more:
+#### The GraphQL aproach offer the best of both SOAP and REST plus some awesome features:
 #### is strongly typed, uses standard protocols (HTTP), efficient/modern data payloads, less network roundtrip by multiplexing the endpoint, etc..
 #
-#### to learn about GraphQL: https://graphql.org/
+#### to learn more about GraphQL: https://graphql.org/
 
 
 
