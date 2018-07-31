@@ -1,6 +1,5 @@
-# stone-graphql
-POC graphql w/ dotnet core 2 
-
+# Graphql-API-transaction-sample
+#### Compiling locally with dotnet CLI
 #### $ dotnet restore
 #### $ dotnet build
 #### $ dotnet run
