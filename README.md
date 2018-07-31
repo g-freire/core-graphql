@@ -2,13 +2,15 @@
 ### Financial API modeling using .NET core 2 + GraphQL 
 ### The server response returns the graph nodes requested by each query
 #
-### Steps to run^:
+### Steps to run:
+#
 #### Using dotnet core CLI:
 ```diff
 + $ dotnet restore
-+ $ dotnet buil#d#
-+ $ dotnet run #
++ $ dotnet build
++ $ dotnet run 
 ```
+#
 #### you may check the endpoints at http://localhost:3000/  or 
 #### query the API using Postman:
 #
