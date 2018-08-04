@@ -9,8 +9,8 @@ namespace aspnetcoregraphql.Models
         {
             Field(x => x.Id).Description("Product id.");
             Field(x => x.Name).Description("Nome da loja");
-            Field(x => x.Cardbrand, nullable: true).Description("Cartao cadastrado");
-            Field(x => x.MerchantReference).Description("Cadastro na Stone");
+            Field(x => x.Cardbrand, nullable: true).Description("Bandeira cadastrada");
+            Field(x => x.MerchantReference).Description("Protocolo Adquirente");
             Field(x => x.MCC).Description("MCC loja.");
 
             Field<CategoryType>(
