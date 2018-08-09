@@ -1,0 +1,20 @@
+version: '3'
+services:
+  model:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: core_graph_img
+    ports:
+      - "3000:80"
+    container_name: core_graph_img
+    volumes:
+      - reports:/app/data
+    networks:
+        - back_bone
+
+volumes:
+  reports:
+
+networks:
+  back_bone:
