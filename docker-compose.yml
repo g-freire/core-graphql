@@ -7,7 +7,7 @@ services:
     image: core_graph_img
     ports:
       - "3000:80"
-    container_name: core_graph_img
+    container_name: core_graph_ctn
     volumes:
       - reports:/app/data
     networks:
